@@ -1,11 +1,6 @@
   .container-logo {
-<<<<<<< HEAD:public/CssFiles/logo.css
-    background-image: url("/Users/serhatkumas/Desktop/OppsWebsite/public/assets/images/background.jpg");
-    background-size: cover;
-=======
     background-image: url('/public/assets/images/backgroundImageDark.jpg');
-  background-size: cover;
->>>>>>> abfacce34363059386c23fae9c77604b76347f23:src/CssFiles/logo.css
+    background-size: cover;
     color: #fff;
     text-align: center;
     vertical-align: middle;
