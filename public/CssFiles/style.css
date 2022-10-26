@@ -5,7 +5,7 @@ body{
     margin: 0;
     background: linear-gradient(54deg, #9164ff, #8bfff4);
     color: #3c3f64;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 .main{
   width: 100vw;
@@ -46,4 +46,15 @@ footer a:hover{
 .bg-transparent{
   background-color: transparent;
   border: 0px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

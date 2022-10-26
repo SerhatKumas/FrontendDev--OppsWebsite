@@ -175,25 +175,7 @@
     </div>
 </div> 
       </footer>
-    <script>
-
-      function disable() {
-// To get the scroll position of current webpage
-TopScroll = window.pageYOffset || document.documentElement.scrollTop;
-LeftScroll = window.pageXOffset || document.documentElement.scrollLeft,
-
-// if scroll happens, set it to the previous value
-window.onscroll = function() {
-window.scrollTo(LeftScroll, TopScroll);
-        };
-};
-
-function enable() {
-window.onscroll = function() {};
-};
-
-</script>
-
+<script src="src/scroll.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
