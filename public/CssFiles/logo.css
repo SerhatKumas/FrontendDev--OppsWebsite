@@ -1,8 +1,8 @@
   .container-logo {
     background-size: cover;
     color: #fff;
-    text-align: center;
     vertical-align: middle;
+    padding-left: 0vw;
   }   
   .logo {
       letter-spacing: -0.05em;

@@ -7,11 +7,10 @@ body{
     color: #3c3f64;
     overflow-x: hidden;
   }
-.hw-100{
+.main{
   width: 100vw;
   height: 90vh;
 }
-
 .fixed-footer {
 	text-align: center;
 	margin-top: auto;
@@ -23,5 +22,28 @@ body{
   font-family: 'Fuzzy Bubbles', cursive;
 }
 
+footer a{
+  color: white;
+text-decoration: none;
+font-size: 2vw;
+}
+footer a:hover{
+  text-decoration: underline;
+  color: black;
+}
 
+.cardStyle{
+  margin-top: 20vh;
+  margin-right: 10vw;
+  margin-bottom: 20vh;
+  margin-left: 5vw;
+  height: 60vh;
+  width: 80vw;
+  background-color: transparent;
+  border: 0px;
+}
 
+.bg-transparent{
+  background-color: transparent;
+  border: 0px;
+}
