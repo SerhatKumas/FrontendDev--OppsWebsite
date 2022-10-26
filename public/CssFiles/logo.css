@@ -1,23 +1,17 @@
   .container-logo {
-   /* background-image: url('/Users/serhatkumas/Desktop/OppsWebsite/public/assets/images/background.jpg'); */
     background-size: cover;
     color: #fff;
     text-align: center;
     vertical-align: middle;
   }   
   .logo {
-      text-shadow: -5px 5px 20px #AAA492;
-      color: white;
       letter-spacing: -0.05em;
-      font-family: 'Acme', sans-serif;
-      font-family: 'Fredoka One', cursive;
       font-size: 20vh;
       transition: all 0.25s ease-out;
   }
 
   #sub-logo{
     font-size: 5vh;
-    text-shadow: -5px 5px 20px #AAA492;
   }
   .center{
     padding-top: 25vh;

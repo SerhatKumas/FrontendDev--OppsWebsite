@@ -3,15 +3,25 @@ body{
     min-height: 100%;
     padding: 0;
     margin: 0;
-    font: normal 10.6666666667px 'Titillium Web', sans-serif;
     background: linear-gradient(54deg, #9164ff, #8bfff4);
     color: #3c3f64;
     overflow-x: hidden;
-    padding-bottom: 50px;
   }
 .hw-100{
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
 }
+
+.fixed-footer {
+	text-align: center;
+	margin-top: auto;
+	height: 10vh;
+  background-color: transparent;
+}
+
+.font{
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
 
 
