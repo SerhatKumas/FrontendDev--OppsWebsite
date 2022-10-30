@@ -9,12 +9,11 @@ body{
   }
 .main{
   width: 100vw;
-  height: 90vh;
+  height: 85vh;
 }
 .fixed-footer {
 	text-align: center;
-	margin-top: auto;
-	height: 10vh;
+    height: 20vh;
   background-color: transparent;
 }
 
@@ -22,12 +21,12 @@ body{
   font-family: 'Fuzzy Bubbles', cursive;
 }
 
-footer a{
+.fixed-footer a{
   color: white;
 text-decoration: none;
 font-size: 2vw;
 }
-footer a:hover{
+.fixed-footer a:hover{
   text-decoration: underline;
   color: black;
 }
@@ -57,4 +56,19 @@ footer a:hover{
 .example {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+
+/*Media Queries*/
+
+@media (max-width:370px) {
+    .fixed-footer a{
+        font-size: 3vw !important;
+    }
+}
+
+@media (min-width:371px) and (max-width:576px) {
+    .fixed-footer a{
+        font-size: 3vw !important;
+    }
+
 }

@@ -20,3 +20,23 @@
   /*.logo:hover {
       text-shadow: -16px 6px 75px #A2B5BB;
   } */
+
+  /*Media Queries*/
+  @media (max-width:370px) {
+      .logo{
+        font-size: 14vh;
+      }
+      #sub-logo{
+          font-size: 4vh;
+      }
+  }
+
+  @media (min-width:371px) and (max-width:576px) {
+      .logo{
+          font-size: 16vh;
+      }
+      #sub-logo{
+          font-size: 4vh;
+      }
+
+  }
