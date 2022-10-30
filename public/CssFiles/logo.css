@@ -4,10 +4,16 @@
     vertical-align: middle;
     padding-left: 0vw;
   }   
-  .logo {
-      letter-spacing: -0.05em;
-      font-size: 20vh;
-      transition: all 0.25s ease-out;
+  .ml15 {
+    letter-spacing: -0.05em;
+    font-size: 20vh;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .ml15 .word {
+    display: inline-block;
+    line-height: 1em;
   }
 
   #sub-logo{
