@@ -36,7 +36,7 @@ text-decoration: none;
   margin-right: 10vw;
   margin-bottom: 20vh;
   margin-left: 10vw;
-  height: 60vh;
+  height: 100vh;
   width: 80vw;
   background-color: transparent;
   border: 0px;
@@ -67,6 +67,10 @@ text-decoration: none;
   border-radius: 50%;
   transition: all 0.3s;
   font-size: 0.9rem;
+}
+
+.list li{
+  list-style-type: none;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
