@@ -12,6 +12,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+<link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
 </head>
 <body>
  <div class="container-fluid">
@@ -255,7 +260,7 @@
         </div>
         <div class="col-12">
           <div class="collapse multi-collapse" id="multiCollapseExample4">
-            <div class="card-body bg-transparent font cardStyle">
+            <div class="card-body bg-transparent font cardStyle mt-1">
               <div class="row">
                 <div class="col-11"></div>
                 <div class="col-1">
@@ -267,16 +272,103 @@
                 </a>
                 </div>
               </div>
-             <p class="pt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda pariatur ex inventore illum harum in iste? Accusamus saepe eius odit rem provident autem non perferendis porro, fugit, natus nemo dolorem.
-             Mollitia tempora quibusdam iure animi repellat dignissimos, ipsam et debitis corporis quo quaerat sint nihil, excepturi nulla vero error quidem temporibus. Blanditiis accusamus facere autem ipsum delectus nesciunt voluptatibus repellat.
-             Maiores ducimus fuga deserunt rem maxime quia expedita, mollitia repudiandae, iure, laborum fugiat! Nemo dolorem reprehenderit soluta iure veritatis quo odit ab officiis. Ipsa non eaque voluptatum suscipit consequuntur maiores!
-             Quaerat non possimus voluptatem eos corporis blanditiis cum ipsum, deleniti id beatae quos error, alias fugiat totam rerum temporibus repudiandae. Libero blanditiis repellat enim commodi harum. Culpa iusto illo adipisci?
-             Rerum modi cum aliquid amet delectus adipisci necessitatibus, nemo similique odit minima voluptates quo illum quam optio facere voluptas nam omnis voluptatem? Illum harum quo delectus, est porro beatae hic?
-             Quaerat numquam ullam delectus est laborum nisi porro a perspiciatis? Vero dolores veritatis odit officia vitae excepturi minus voluptates earum! Dolorem exercitationem atque officia officiis dignissimos accusamus delectus voluptas libero!
-             Sed deleniti exercitationem vitae? Dicta voluptatibus eius aperiam iste at animi rerum error eos, tempora perspiciatis laudantium libero ducimus, vero ipsum asperiores deleniti numquam ad adipisci distinctio. Laborum, ipsum culpa?
-             Aliquam eveniet dicta fugit praesentium error vero quod nemo animi quaerat expedita eius alias fuga nihil hic quia, ducimus quibusdam ut beatae consectetur quos voluptas! Iste cumque perspiciatis laborum quos!
-             Quod quasi consequatur eum animi quia consectetur aliquid qui, dignissimos eos optio incidunt non adipisci aperiam amet explicabo. Facilis, delectus voluptas cum velit reiciendis quaerat libero quia beatae asperiores tenetur!
-             Eaque similique assumenda quibusdam consectetur sequi! Provident, asperiores aut maxime magnam expedita similique doloribus quaerat porro corporis fugiat voluptatibus quam ducimus ipsum soluta facere! Id, quia impedit? Nihil, nulla tempore?</p>
+             <p class="pt-4">
+              <!--Section: Contact v.2-->
+<section class="mb-4">
+
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+      a matter of hours to help you.</p>
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control text-warning">
+                          <label for="name" class="text-white">Your name</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control text-warning">
+                          <label for="email" class="text-white">Your email</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control text-warning">
+                          <label for="subject" class="text-white">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea text-warning"></textarea>
+                          <label for="message" class="text-white">Your message</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+          <div class="text-center text-md-left">
+            <a class="btn btn-primary" onclick="validateForm()">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>San Francisco, CA 94126, USA</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+ 01 234 567 89</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>contact@mdbootstrap.com</p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
+             </p>
             </div>
           </div>
         </div>
@@ -332,7 +424,12 @@
     </div>
 </div>
  </div>
-<script src="src/titleAnimation.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
+  <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
+  <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
+  <script src="src/Js/titleAnimation.js"></script>
+<script src="src/Js/mailValidation.js"></script>
 </body>
 </html>
