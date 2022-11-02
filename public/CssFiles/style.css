@@ -88,16 +88,21 @@ text-decoration: none;
 /*Media Queries*/
 
 @media (max-width:370px) {
+
+  html{
+    background-color: #130e0d;
+  }
+  
     body{
         width: 100%;
         min-height: 100%;
         padding: 0;
         margin: 0;
         background-size: cover !important;
-        background-repeat: repeat-y;
-        background-position: bottom;
+        background-repeat: none;
         background-image: url('../Images/background.jpg');
         overflow: scroll;
+        background-color: #130e0d;
     }
     .fixed-footer a{
         font-size: 3vw !important;
@@ -119,14 +124,18 @@ text-decoration: none;
 }
 
 @media (min-width:371px) and (max-width:576px) {
+
+    html{
+      background-color: #130e0d;
+    }
+
     body{
         width: 100%;
         min-height: 100%;
         padding: 0;
         margin: 0;
         background-size: cover !important;
-        background-repeat: repeat-y;
-        background-position: bottom;
+        background-repeat: none;
         background-image: url('../Images/background.jpg');
         overflow: scroll;
     }
