@@ -1,9 +1,7 @@
   .container-logo {
     background-size: cover;
     color: #fff;
-    vertical-align: middle;
-    padding-left: 0vw;
-  }   
+  }
   .ml15 {
     letter-spacing: -0.05em;
     font-size: 20vh;
@@ -35,6 +33,12 @@
       #sub-logo{
           font-size: 4vh;
       }
+      .ml15 {
+          letter-spacing: -0.05em;
+          font-size: 14vh;
+          font-weight: 800;
+          text-transform: uppercase;
+      }
   }
 
   @media (min-width:371px) and (max-width:576px) {
@@ -43,6 +47,12 @@
       }
       #sub-logo{
           font-size: 4vh;
+      }
+      .ml15 {
+          letter-spacing: -0.05em;
+          font-size: 16vh;
+          font-weight: 800;
+          text-transform: uppercase;
       }
 
   }
