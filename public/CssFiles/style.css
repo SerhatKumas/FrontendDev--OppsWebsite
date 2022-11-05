@@ -101,9 +101,7 @@ text-decoration: none;
     }
     .cardStyle{
         margin-top: 8vh;
-        margin-right: 10vw;
         margin-bottom: 20vh;
-        margin-left: 4vw;
         border: 0px;
     }
 }
@@ -115,10 +113,6 @@ text-decoration: none;
     }
 
     body{
-        width: 100%;
-        min-height: 100%;
-        padding: 0;
-        margin: 0;
         overflow: scroll;
     }
     .fixed-footer a{
@@ -126,9 +120,7 @@ text-decoration: none;
     }
     .cardStyle{
         margin-top: 8vh;
-        margin-right: 10vw;
         margin-bottom: 20vh;
-        margin-left: 5vw;
     }
 
 }
