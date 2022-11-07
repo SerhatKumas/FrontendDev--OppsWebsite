@@ -187,7 +187,13 @@
     height: 20px;
     margin: 0 5px;
   }
-  
+  @media screen and (max-width: 340px) {
+    .app-title span{
+      display: block;
+      font-size: 15px !important;
+    }
+  }
+
   @media screen and (max-width: 520px) {
     .screen-body {
       flex-direction: column;
@@ -198,15 +204,20 @@
     }
   
     .app-title {
-      flex-direction: row;
+      display: block;
+      font-size: 22px;
     }
   
     .app-title span {
-      margin-right: 12px;
+      text-align: center;
     }
   
     .app-title:after {
       display: none;
+    }
+    .app-form-button {
+      margin-top: 30px;
+      margin-right: 30%;
     }
   }
   
