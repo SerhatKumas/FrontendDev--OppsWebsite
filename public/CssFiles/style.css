@@ -94,7 +94,6 @@ text-decoration: none;
       min-height: 100%;
       padding: 0;
       margin: 0;
-      overflow: scroll;
     }
     .fixed-footer a{
         font-size: 3vw !important;
@@ -112,9 +111,6 @@ text-decoration: none;
       background-color: #130e0d;
     }
 
-    body{
-        overflow: scroll;
-    }
     .fixed-footer a{
         font-size: 3vw !important;
     }
