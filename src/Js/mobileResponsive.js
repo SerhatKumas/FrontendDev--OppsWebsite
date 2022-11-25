@@ -1,3 +1,4 @@
+//Opps and Apps For All headings mobile responsiveness
 function displayNoneDiv(){
     document.getElementById("opps-logo").style.display = "none";
     document.getElementById("footer-logos").style.display = "none";

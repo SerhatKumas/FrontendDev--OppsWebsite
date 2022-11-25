@@ -1,57 +1,60 @@
-  .container-logo {
-    color: #fff;
-  }
-  .ml15 {
-    letter-spacing: -0.05em;
-    font-size: 20vh;
-    font-weight: 800;
-    text-transform: uppercase;
-  }
-  
-  .ml15 .word {
-    display: inline-block;
-    line-height: 1em;
-  }
+/* Opps and Apps For All Headings Css Class Features */
+.container-logo {
+	color: #fff;
+}
 
-  #sub-logo{
-    font-size: 5vh;
-  }
-  .center{
-    padding-top: 25vh;
-  }
-  
-  /*.logo:hover {
-      text-shadow: -16px 6px 75px #A2B5BB;
-  } */
+.ml15 {
+	letter-spacing: -0.05em;
+	font-size: 20vh;
+	font-weight: 800;
+	text-transform: uppercase;
+}
 
-  /*Media Queries*/
-  @media (max-width:370px) {
-      .logo{
-        font-size: 14vh;
-      }
-      #sub-logo{
-          font-size: 4vh;
-      }
-      .ml15 {
-          letter-spacing: -0.05em;
-          font-size: 14vh;
-          font-weight: 800;
-          text-transform: uppercase;
-      }
-  }
+.ml15 .word {
+	display: inline-block;
+	line-height: 1em;
+}
 
-  @media (min-width:371px) and (max-width:576px) {
-      .logo{
-          font-size: 16vh;
-      }
-      #sub-logo{
-          font-size: 4vh;
-      }
-      .ml15 {
-          letter-spacing: -0.05em;
-          font-size: 16vh;
-          font-weight: 800;
-          text-transform: uppercase;
-      }
+#sub-logo {
+	font-size: 5vh;
+}
 
-  }
+.center {
+	padding-top: 25vh;
+}
+
+/*Media Queries*/
+@media (max-width:370px) {
+	.logo {
+		font-size: 14vh;
+	}
+
+	#sub-logo {
+		font-size: 4vh;
+	}
+
+	.ml15 {
+		letter-spacing: -0.05em;
+		font-size: 14vh;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+}
+
+@media (min-width:371px) and (max-width:576px) {
+	.logo {
+		font-size: 16vh;
+	}
+
+	#sub-logo {
+		font-size: 4vh;
+	}
+
+	.ml15 {
+		letter-spacing: -0.05em;
+		font-size: 16vh;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+
+}

@@ -1,3 +1,4 @@
+//Opps and Apps For All Headings coming out from the window frame
 anime.timeline({loop: false})
 .add({
   targets: '.ml15 .word',
